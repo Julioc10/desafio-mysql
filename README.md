@@ -19,7 +19,8 @@ Tirar um relatorio (uma consulta SELECT) com os seguintes campos: nome_pais sigl
 Solução
 Usando o "SELECT" você consegue listar as tabelas e com o "JOIN" você consegue consultar as 3 tabelas Tendo alguma coisa que esteja iguais nelas.
 
-SELECT PAIS.NOME, PAIS.SIGLA, ESTADO.NOME, ESTADO.SIGLA, CIDADE.NOME FROM PAIS JOIN ESTADO ON PAIS.ID = ESTADO.ID_PAIS JOIN CIDADE ON ESTADO.ID = CIDADE.ID_ESTADO;
+`SELECT PAIS.NOME, PAIS.SIGLA, ESTADO.NOME, ESTADO.SIGLA, CIDADE.NOME FROM PAIS JOIN ESTADO ON PAIS.ID = ESTADO.ID_PAIS JOIN CIDADE ON ESTADO.ID = CIDADE.ID_ESTADO;`
+
 ![image](https://user-images.githubusercontent.com/69183396/228383951-0bb45647-1ee1-42eb-bb55-a31e8c27a6dd.png)
 
 
